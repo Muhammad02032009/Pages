@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-div {
+    position: absolute;
+    z-index: 12;
+    display: flex;
+    align-items: center;
+    width: 1230px;
+    justify-content: space-between;
+    top: 30px;
+    left: 150px;
+
+    p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25.6px;
+        color: rgba(255, 255, 255, 0.484);
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            margin-right: 20px;
+        }
+
+        select {
+            border: none;
+            outline: none;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25.6px;
+            padding: 5px;
+            background-color:#23244136;
+            color: rgba(255, 255, 255, 0.484);
+        }
+    }
+
+   
+}
+
+.viyoletBtn{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        padding: 0px 20px;
+        background-color: #7772F1;
+        border-radius: 5px;
+        border: none;
+        color: white;
+}
